@@ -1,0 +1,15 @@
+xpath on rediff video link
+
+
+//a[@class='vdicon']
+//div[@class='cell topicons']//a[@class='vdicon']
+//div[@class='cell']/following-sibling::div[@class='cell topicons']//a[@class='vdicon']
+//div[@class='table']/child::div[@class='cell']/following-sibling::div[@class='cell topicons']//a[@class='vdicon']
+//div[@class='logobar']/child::div[@class='table']/child::div[@class='cell']/following-sibling::div[@class='cell topicons']//a[@class='vdicon']
+//div[@class='logobar']/descendant::a[@class='vdicon']
+//div[@class='fnt0']/following::a[@class='vdicon']
+//input[@id='OAS_subsection']/following-sibling::div[@class='fnt0']/following::a[@class='vdicon']
+//body/child::input[@id='OAS_subsection']/following-sibling::div[@class='fnt0']/following::a[@class='vdicon']
+//body/descendant::div[@class='cell topicons']/child::a[@class='vdicon']
+///div[@class='srchbar clear-fix relative']/preceding::a[@class='vdicon']
+//div[@class='srchbar clear-fix relative']/preceding::div[@class='cell topicons']/child::a[@class='vdicon']

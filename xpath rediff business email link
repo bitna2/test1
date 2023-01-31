@@ -1,0 +1,7 @@
+xpath rediff business email link
+
+
+//a[@class='bmailicon relative']
+//div[@class='cell topicons']/child::a[@class='bmailicon relative']
+//div[@class='table']/child::div[@class='cell topicons']/child::a[@class='bmailicon relative']
+//div[@class='logobar']//parent::div[@class='cell topicons']/child::a[@class='bmailicon relative']
